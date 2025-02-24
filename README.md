@@ -20,7 +20,10 @@
    ![image](https://github.com/user-attachments/assets/7f33218d-6722-438f-87a7-32ee78d290fd)
 
   Ejemplo: 
-  *Step2. Ejemplo: $f(t) = e^{-at}$*
+  
+$f(t) = e^{-at}$*
+
+
 Vamos a calcular la transformada de Laplace de la función exponencial $f(t) = e^{-at}$:
 
 $\mathcal{L}\{e^{-at}\} = \int_0^{\infty} e^{-st} e^{-at} dt = \int_0^{\infty} e^{-(s+a)t} dt$
