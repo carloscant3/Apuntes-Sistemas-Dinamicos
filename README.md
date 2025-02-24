@@ -42,7 +42,20 @@
   ![image](https://github.com/user-attachments/assets/c7cfffcc-8d79-4742-9a98-721474939615)  y resolvemos el sistema de ecuaciones resultante.  Por ejemplo, haciendo
   s = 0 encontramos B; haciendo s = -2 Encontramos C y finalmente igualando coeficientes de s encontramos A.
 
-  Una vez que hemos encontrado A, B y C (A=3/4, B=1/2 y C=-3/4), podemos aplicar la transformada inversa de Laplace a cada término por separado.  Recordemos que:
+  Una vez que hemos encontrado A, B y C (A=3/4, B=1/2 y C=-3/4), podemos aplicar la transformada inversa de Laplace a cada término por separado.  
+  Recordemos que: 
+
+  ![image](https://github.com/user-attachments/assets/18e0b9a1-1177-4930-af3d-5a09bfce3b7d)
+
+  Aplicando la transformada inversa a cada término en la descomposición en fracciones parciales:
+  ![image](https://github.com/user-attachments/assets/1d6d0994-6e21-45ea-9781-8c5c63e942a4)
+
+  La transformada inversa es: 
+
+  ![image](https://github.com/user-attachments/assets/69a287c5-59cf-4d9f-851e-0d136cfde8c3)
+
+
+
   
 
 
