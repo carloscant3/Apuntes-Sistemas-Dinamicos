@@ -21,23 +21,18 @@
 
   Ejemplo: 
   
-$f(t) = e^{-at}$*
 
-
-Vamos a calcular la transformada de Laplace de la función exponencial $f(t) = e^{-at}$:
-
-$\mathcal{L}\{e^{-at}\} = \int_0^{\infty} e^{-st} e^{-at} dt = \int_0^{\infty} e^{-(s+a)t} dt$
-
-Resolviendo la integral:
-
-$= \left[ -\frac{1}{s+a} e^{-(s+a)t} \right]_0^{\infty} = \frac{1}{s+a}$
 
 
   # Transformada inversa de Laplace
 
   Ejemplo:
 
-  \(F(s) = \frac{s+1}{s^2(s+2)}\)
+  ![image](https://github.com/user-attachments/assets/17b0d6c9-6015-44c3-805a-382422a8164c)
+
+  Descomposición en Fracciones Parciales*
+  Descomponemos \(F(s)\) en fracciones parciales para obtener términos más simples.  La forma general de la descomposición es:
+
   
    
   
