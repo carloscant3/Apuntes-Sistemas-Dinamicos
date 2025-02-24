@@ -34,6 +34,10 @@ $= \left[ -\frac{1}{s+a} e^{-(s+a)t} \right]_0^{\infty} = \frac{1}{s+a}$
 
 
   # Transformada inversa de Laplace
+
+  Ejemplo:
+
+  \(F(s) = \frac{s+1}{s^2(s+2)}\)
   
    
   
