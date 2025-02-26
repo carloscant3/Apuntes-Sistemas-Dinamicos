@@ -20,7 +20,31 @@
   Se define como una integral  de la siguiente manera:
    ![image](https://github.com/user-attachments/assets/7f33218d-6722-438f-87a7-32ee78d290fd)
 
-  
+Ejemplo : Queremos calcular la transformada de laplace de la siguiente función:
+
+![image](https://github.com/user-attachments/assets/fa17bdf6-b610-4401-b973-770623dc9164)
+
+  - Aplicamos la definición:
+
+    ![image](https://github.com/user-attachments/assets/ea16b7e5-2d80-453a-9130-a9fd957fbab2)
+
+- Simplificamos el exponente:
+
+  ![image](https://github.com/user-attachments/assets/db25d34b-84e9-4822-a926-a0e043ecffea)
+
+- La integral quedaria de la siguiente forma:
+
+  ![image](https://github.com/user-attachments/assets/5ee4bd74-1e4c-49fd-abe5-8ee44caa7c92)
+
+- Evaluamos los limites:
+
+
+![image](https://github.com/user-attachments/assets/1996cdbc-f7d6-4561-9ad9-3d33b8146c9b)
+
+
+- Entonces decimos que:
+
+![image](https://github.com/user-attachments/assets/b4c08c6e-5720-49f6-a751-746cd7cb48fc)
 
 
 
