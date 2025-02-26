@@ -107,6 +107,9 @@ Por lo tanto el resultado final o la transformada inversa es:
 
 dasdsadsads ![image](https://github.com/user-attachments/assets/5e055ba4-9909-4066-b491-63401e804471)
 
+![image](https://github.com/user-attachments/assets/1941fe19-33c4-4afb-9bc0-7a30098d6714)
+
+
 
 
 
