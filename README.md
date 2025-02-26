@@ -61,7 +61,38 @@ hacen que algunos términos desaparezcan, lo que simplifica el sistema de ecuaci
   # Caso 1: Raíces reales diferentes
   
 Las raíces reales diferentes son simplemente los valores de una ecuación en los que la función toca o cruza el eje y la incognita y que no se repita.
+
 ![image](https://github.com/user-attachments/assets/342f9510-d63b-4b5e-bc95-304f22a33564)
+
+# Ejemplo: 
+
+![image](https://github.com/user-attachments/assets/90e0435b-413c-44c1-8664-1dc27f487eb8)
+
+Descomponemos en fracciones parciales: 
+
+![image](https://github.com/user-attachments/assets/57de157e-d312-4d86-9a84-9520ea94e142)
+
+Luego multiplicamos por ambos lados:
+
+![image](https://github.com/user-attachments/assets/f2af4794-295f-4885-95a8-0191ea22a0c0)
+
+Para encontrar A, decimos que s = -1
+
+![image](https://github.com/user-attachments/assets/5950387f-2869-4338-91c1-7c2b8672f40b)
+
+Para encontrar B, decimos que s = -3
+
+![image](https://github.com/user-attachments/assets/d9d0d55c-424b-4da5-8c15-ca57478a34f8)
+
+Al remplazar en las fracciones parciales decimos que, 
+
+![image](https://github.com/user-attachments/assets/a11d46c6-f42c-4adb-a42d-043df07b2422)
+
+
+
+
+
+
 
 
   
