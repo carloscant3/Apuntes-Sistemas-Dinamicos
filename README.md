@@ -5,8 +5,10 @@
   principios que relacionan salidas con las entradas.
 
   # Sistema dinámico
-  • Un sistema se llama dinámico si su salida en el presente
+  • Un sistema se llama dinámico si su salida en el presente                                      ![image](https://github.com/user-attachments/assets/39d28d0a-cb47-4d66-8025-0e9be5be53bf)
+
   depende de una entrada en el pasado
+  
   • Si su salida en curso depende solamente de la entrada en
   curso, el sistema se conoce como estático.
 
