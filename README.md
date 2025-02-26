@@ -16,10 +16,9 @@
   ![image](https://github.com/user-attachments/assets/54057239-3757-426a-b4f3-2e6480e5c151)
 
   # Transformada de LaPlace
-  La Transformada de Laplace es una herramienta matemática que se utiliza para analizar sistemas dinámicos, resolver ecuaciones diferenciales y modelar fenómenos en ingeniería y física.    Se define como una integral impropia de la siguiente manera:
+  La Transformada de Laplace es una herramienta matemática que se utiliza para analizar sistemas dinámicos, resolver ecuaciones diferenciales y modelar fenómenos en ingeniería y física.    Se define como una integral  de la siguiente manera:
    ![image](https://github.com/user-attachments/assets/7f33218d-6722-438f-87a7-32ee78d290fd)
 
-  Ejemplo: 
   
 
 
@@ -55,6 +54,15 @@
   ![image](https://github.com/user-attachments/assets/69a287c5-59cf-4d9f-851e-0d136cfde8c3)
 
 
+# Transformada inversa (Método resumido)
+Cuando se hace la división en fracciones parciales, hay que factorizar las raíces del polinomio de arriba. Esto ayuda a ver qué valores de S
+hacen que algunos términos desaparezcan, lo que simplifica el sistema de ecuaciones que hay que resolver.
+
+  # Caso 1: Raíces reales diferentes
+  
+    Las raíces reales diferentes son simplemente los valores de una ecuación en los que la función toca o cruza el eje y la incognita y que no se repita.
+    
+    ![image](https://github.com/user-attachments/assets/518f4b02-a868-4e2c-a657-2c1e94cb4563)
 
   
 
