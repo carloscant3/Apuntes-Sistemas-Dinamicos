@@ -105,6 +105,9 @@ Por lo tanto el resultado final o la transformada inversa es:
 ![image](https://github.com/user-attachments/assets/b938e787-afe6-4e64-8b7a-6c2e36327a5c)
 
 
+dasdsadsads ![image](https://github.com/user-attachments/assets/5e055ba4-9909-4066-b491-63401e804471)
+
+
 
 
 
