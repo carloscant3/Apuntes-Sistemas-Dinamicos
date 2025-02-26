@@ -88,6 +88,26 @@ Al remplazar en las fracciones parciales decimos que,
 
 ![image](https://github.com/user-attachments/assets/a11d46c6-f42c-4adb-a42d-043df07b2422)
 
+Teniendo en cuenta lo anteriormente mencionado podemos encontrar la transformada inversa de cada termino:
+
+Según la tabla de transformadas inversas de Laplace ![image](https://github.com/user-attachments/assets/c3df4d4e-cfdc-4f32-8873-c993c6e113fc)  es   ![image](https://github.com/user-attachments/assets/c0762ae0-98b9-481a-bcc5-ec7f9d6b2bb1)
+
+
+Por ende la transformada inversa de ![image](https://github.com/user-attachments/assets/819e490a-d25e-4475-a0f3-27d2d116058e)  es ![image](https://github.com/user-attachments/assets/9f2e6d56-4390-47d0-97ed-72657bff3208).
+
+y, la transoformada inversa de ![image](https://github.com/user-attachments/assets/70f6fa13-4e7b-4e6f-b3d8-1b1acf16ff63)
+es   ![image](https://github.com/user-attachments/assets/2bddae17-dd00-44e3-952b-f2635d03a58d)
+
+Por lo tanto el resultado final o la transformada inversa es:
+
+![image](https://github.com/user-attachments/assets/b938e787-afe6-4e64-8b7a-6c2e36327a5c)
+
+
+
+
+
+
+
 
 
 
