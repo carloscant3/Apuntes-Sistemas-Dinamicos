@@ -60,9 +60,9 @@ hacen que algunos términos desaparezcan, lo que simplifica el sistema de ecuaci
 
   # Caso 1: Raíces reales diferentes
   
-    Las raíces reales diferentes son simplemente los valores de una ecuación en los que la función toca o cruza el eje y la incognita y que no se repita.
-    
-    ![image](https://github.com/user-attachments/assets/518f4b02-a868-4e2c-a657-2c1e94cb4563)
+Las raíces reales diferentes son simplemente los valores de una ecuación en los que la función toca o cruza el eje y la incognita y que no se repita.
+![image](https://github.com/user-attachments/assets/342f9510-d63b-4b5e-bc95-304f22a33564)
+
 
   
 
