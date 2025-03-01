@@ -54,7 +54,7 @@ Ejemplo : Queremos calcular la transformada de laplace de la siguiente función:
 
   Ejemplo:
 
-  ![image](https://github.com/user-attachments/assets/17b0d6c9-6015-44c3-805a-382422a8164c)
+  \[ F(s) = \frac{s+1}{s^2(s+2)} \]
 
   Descomposición en Fracciones Parciales*
   Descomponemos \(F(s)\) en fracciones parciales para obtener términos más simples.  La forma general de la descomposición es:
