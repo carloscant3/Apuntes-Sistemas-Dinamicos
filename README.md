@@ -78,9 +78,11 @@ $$
   s = 0 encontramos B; haciendo s = -2 Encontramos C y finalmente igualando coeficientes de s encontramos A.
 
   Una vez que hemos encontrado A, B y C 
+  
   $$
-\frac{s+1}{s^2(s+2)} = \frac{3}{4s} + \frac{1}{2s^2} + \frac{-3}{4(s+2)}
-$$
+  \frac{s+1}{s^2(s+2)} = \frac{3}{4s} + \frac{1}{2s^2} + \frac{-3}{4(s+2)}
+  $$
+  
 , podemos aplicar la transformada inversa de Laplace a cada término por separado.  
   Recordemos que: 
 
