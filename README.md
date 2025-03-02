@@ -85,7 +85,11 @@ $$
   
 , podemos aplicar la transformada inversa de Laplace a cada término por separado.  
   Recordemos que: 
-
+$$
+L^{-1}\left\{\frac{1}{s}\right\} = 1 \\
+L^{-1}\left\{\frac{1}{s^2}\right\} = t \\
+L^{-1}\left\{\frac{1}{s+a}\right\} = e^{-at}
+$$
   ![image](https://github.com/user-attachments/assets/18e0b9a1-1177-4930-af3d-5a09bfce3b7d)
 
   Aplicando la transformada inversa a cada término en la descomposición en fracciones parciales:
