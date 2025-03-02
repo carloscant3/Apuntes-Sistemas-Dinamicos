@@ -1,5 +1,9 @@
 # Apuntes-Sistemas-Dinamicos
 
+$ 
+7 - febrero de 2025
+$
+
   # Sistema
   Un sistema es una combinación de componentes que actúan conjuntamente para alcanzar un objetivo específico. La combinación de componentes se puede representar por medio de reglas      
   principios que relacionan salidas con las entradas.
