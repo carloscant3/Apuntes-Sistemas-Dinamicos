@@ -62,7 +62,7 @@ $$
   Descomposición en Fracciones Parciales*
   Descomponemos \(F(s)\) en fracciones parciales para obtener términos más simples.  La forma general de la descomposición es:
 
-    $$
+$$
 \frac{s+1}{s^2(s+2)} = \frac{A}{s} + \frac{B}{s^2} + \frac{c}{s+2}
 $$
 
