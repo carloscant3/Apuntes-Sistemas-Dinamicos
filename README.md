@@ -102,7 +102,15 @@ $$
 
   La transformada inversa es: 
 
-  ![image](https://github.com/user-attachments/assets/69a287c5-59cf-4d9f-851e-0d136cfde8c3)
+
+  $$
+F(s) = \frac{s+1}{s^2(s+2)} \quad \mathbf{es}
+$$
+
+$$
+f(t) = \frac{3}{4} + \frac{1}{2}t - \frac{3}{4}e^{-2t}
+$$
+
 
 
 # Transformada inversa (Método resumido)
