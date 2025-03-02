@@ -68,9 +68,13 @@ $$
 
   Donde A, B y C son constantes que debemos determinar.
 
-  Para encontrar A, B y C, multiplicamos ambos lados de la ecuación por 
-
-  ![image](https://github.com/user-attachments/assets/c7cfffcc-8d79-4742-9a98-721474939615)  y resolvemos el sistema de ecuaciones resultante.  Por ejemplo, haciendo
+  Para encontrar A, B y C, multiplicamos ambos lados de la ecuación por
+  
+  $$
+  \{s^2(s+2)}
+  $$
+  
+  y resolvemos el sistema de ecuaciones resultante.  Por ejemplo, haciendo
   s = 0 encontramos B; haciendo s = -2 Encontramos C y finalmente igualando coeficientes de s encontramos A.
 
   Una vez que hemos encontrado A, B y C (A=3/4, B=1/2 y C=-3/4), podemos aplicar la transformada inversa de Laplace a cada término por separado.  
