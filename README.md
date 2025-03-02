@@ -87,11 +87,9 @@ $$
   Recordemos que: 
   
   $$
-  L^{-1}\left\{\frac{1}{s}\right\} = 1 \\
-  L^{-1}\left\{\frac{1}{s^2}\right\} = t \\
-  L^{-1}\left\{\frac{1}{s+a}\right\} = e^{-at}
+  \mathcal{L}^{-1} \frac{1}{s} = 1 \mathcal{L}^{-1} \frac{1}{s^2} = t \mathcal{L}^{-1} \frac{1}{s + a} = e^{-at}
   $$
-  
+
   ![image](https://github.com/user-attachments/assets/18e0b9a1-1177-4930-af3d-5a09bfce3b7d)
 
   Aplicando la transformada inversa a cada término en la descomposición en fracciones parciales:
