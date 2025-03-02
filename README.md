@@ -52,7 +52,7 @@ Ejemplo : Queremos calcular la transformada de laplace de la siguiente función:
 
 ![image](https://github.com/user-attachments/assets/b4c08c6e-5720-49f6-a751-746cd7cb48fc)
 
-
+# 10/feb/2025
 
   # Transformada inversa de Laplace
 
@@ -116,6 +116,13 @@ f(t) = \frac{3}{4} + \frac{1}{2}t - \frac{3}{4}e^{-2t}
 $$
 
 
+# 14/feb/2025
+
+  # Transformada inversa de Laplace
+
+
+
+# 17/feb/2025
 
 # Transformada inversa (Método resumido)
 Cuando se hace la división en fracciones parciales, hay que factorizar las raíces del polinomio de arriba. Esto ayuda a ver qué valores de S
@@ -164,6 +171,13 @@ es   ![image](https://github.com/user-attachments/assets/2bddae17-dd00-44e3-952b
 Por lo tanto el resultado final o la transformada inversa es:
 
 ![image](https://github.com/user-attachments/assets/b938e787-afe6-4e64-8b7a-6c2e36327a5c)
+
+  # Caso 2: Raíces reales iguales
+
+
+# 21/feb/2025
+
+# Caso 3: Raíces complejas conjugadas
 
 
 
