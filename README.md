@@ -77,7 +77,11 @@ $$
   y resolvemos el sistema de ecuaciones resultante.  Por ejemplo, haciendo
   s = 0 encontramos B; haciendo s = -2 Encontramos C y finalmente igualando coeficientes de s encontramos A.
 
-  Una vez que hemos encontrado A, B y C (A=3/4, B=1/2 y C=-3/4), podemos aplicar la transformada inversa de Laplace a cada término por separado.  
+  Una vez que hemos encontrado A, B y C 
+  $$
+\frac{s+1}{s^2(s+2)} = \frac{3}{4s} + \frac{1}{2s^2} + \frac{-3}{4(s+2)}
+$$
+, podemos aplicar la transformada inversa de Laplace a cada término por separado.  
   Recordemos que: 
 
   ![image](https://github.com/user-attachments/assets/18e0b9a1-1177-4930-af3d-5a09bfce3b7d)
