@@ -94,8 +94,10 @@ $$
 
 
   $$
-  f(t) = \mathcal{L}^{-1} \{ F(s) \} = \mathcal{L}^{-1} \left\{ \frac{3}{4s} + \frac{1}{2s^2} - \frac{3}{4(s+2)} \right\} = \frac{3}{4}    + \frac{1}{2}t - \frac{3}{4}e^{-2t}
-  $$
+f(t) = \mathcal{L}^{-1} \{ F(s) \} = \mathcal{L}^{-1} \left( \frac{3}{4s} + \frac{1}{2s^2} - \frac{3}{4(s+2)} \right) = \frac{3}{4} + \frac{1}{2}t - \frac{3}{4}e^{-2t}
+$$
+
+
 
 
   La transformada inversa es: 
