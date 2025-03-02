@@ -1,7 +1,7 @@
 # Apuntes-Sistemas-Dinamicos
 
  
-# 7 - febrero de 2025
+# 7/feb/2025
 
 
   # Sistema
