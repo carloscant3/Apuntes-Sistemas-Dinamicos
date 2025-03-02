@@ -53,18 +53,18 @@ Ejemplo : Queremos calcular la transformada de laplace de la siguiente función:
   # Transformada inversa de Laplace
 
   Ejemplo:
-
-  [Ver ejemplo y ejecución](https://github.com/carloscant3/Apuntes-Sistemas-Dinamicos/blob/9fd98daf9a4616514d48bce316b6aa443791ee91/index.html)
   
   $$
-\frac{s+1}{s^2(s+2)} = \frac{A}{s} + \frac{B}{s^2} + \frac{C}{s+2}
+\frac{s+1}{s^2(s+2)}
 $$
 
 
   Descomposición en Fracciones Parciales*
   Descomponemos \(F(s)\) en fracciones parciales para obtener términos más simples.  La forma general de la descomposición es:
 
-  ![image](https://github.com/user-attachments/assets/0505596d-ff46-4c63-a67c-58f9002c6d6f)
+    $$
+\frac{s+1}{s^2(s+2)} = \frac{A}{s} + \frac{B}{s^2} + \frac{c}{s+2}
+$$
 
   Donde A, B y C son constantes que debemos determinar.
 
