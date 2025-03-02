@@ -90,10 +90,11 @@ $$
   \mathcal{L}^{-1} \frac{1}{s} = 1 \mathcal{L}^{-1} \frac{1}{s^2} = t \mathcal{L}^{-1} \frac{1}{s + a} = e^{-at}
   $$
 
-  ![image](https://github.com/user-attachments/assets/18e0b9a1-1177-4930-af3d-5a09bfce3b7d)
-
   Aplicando la transformada inversa a cada término en la descomposición en fracciones parciales:
-  ![image](https://github.com/user-attachments/assets/1d6d0994-6e21-45ea-9781-8c5c63e942a4)
+  
+  $$
+  f(t) = L^{-1} \{ F(s) \} = L^{-1} \left\{ \frac{3}{4s} + \frac{1}{2s^2} - \frac{3}{4(s+2)} \right\} = \frac{3}{4} + \frac{1}{2}t -       \frac{3}{4}e^{-2t}
+  $$
 
   La transformada inversa es: 
 
