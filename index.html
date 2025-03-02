@@ -3,31 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transformada de Laplace</title>
-    <!-- Cargar MathJax -->
+    <title>Transformada Inversa de Laplace</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-    <h1>Transformada de Laplace</h1>
-
-    <h2>Ecuación original:</h2>
-    <p>
-        \[ F(s) = \frac{s+1}{s^2(s+2)} \]
-    </p>
-
-    <h2>Descomposición en fracciones parciales:</h2>
-    <p>
-        \[
-        \frac{s+1}{s^2(s+2)} = \frac{A}{s} + \frac{B}{s^2} + \frac{C}{s+2}
-        \]
-    </p>
-
-    <h2>Transformada inversa de Laplace aplicada:</h2>
-    <p>
-        \[
-        f(t) = L^{-1}\{F(s)\} = L^{-1}\left\{\frac{3}{4s} + \frac{1}{2s^2} - \frac{3}{4(s+2)}\right\} = \frac{3}{4} + \frac{1}{2}t - \frac{3}{4}e^{-2t}
-        \]
-    </p>
+    <h1>Transformada Inversa de Laplace</h1>
+    <p>La transformada inversa de Laplace de la función \( F(s) = \frac{s + 1}{s^2 (s + 2)} \) es:</p>
+    <p>\[ f(t) = \frac{1}{4} + \frac{1}{2} t - \frac{1}{4} e^{-2t} \]</p>
 </body>
 </html>
