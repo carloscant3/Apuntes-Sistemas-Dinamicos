@@ -54,7 +54,7 @@ Ejemplo : Queremos calcular la transformada de laplace de la siguiente función:
 
   Ejemplo:
 
-  [Ver archivo HTML](https://github.com/carloscant3/Apuntes-Sistemas-Dinamicos/blob/9fd98daf9a4616514d48bce316b6aa443791ee91/index.html)
+  [Ver página web](https://github.com/carloscant3/Apuntes-Sistemas-Dinamicos/blob/9fd98daf9a4616514d48bce316b6aa443791ee91/index.html)
 
   Descomposición en Fracciones Parciales*
   Descomponemos \(F(s)\) en fracciones parciales para obtener términos más simples.  La forma general de la descomposición es:
