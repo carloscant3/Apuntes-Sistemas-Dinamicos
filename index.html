@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuaciones con MathJax</title>
+    <!-- Cargar MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <h1>Transformada de Laplace</h1>
+
+    <p>Ecuación original:</p>
+    <p>
+        \[ F(s) = \frac{s+1}{s^2(s+2)} \]
+    </p>
+
+    <p>Descomposición en fracciones parciales:</p>
+    <p>
+        \[
+        \frac{s+1}{s^2(s+2)} = \frac{A}{s} + \frac{B}{s^2} + \frac{C}{s+2}
+        \]
+    </p>
+
+    <p>Transformada inversa de Laplace aplicada:</p>
+    <p>
+        \[
+        f(t) = L^{-1} \{ F(s) \} = L^{-1} \left\{ \frac{3}{4s} + \frac{1}{2s^2} - \frac{3}{4(s+2)} \right\} = \frac{3}{4} + \frac{1}{2}t - \frac{3}{4}e^{-2t}
+        \]
+    </p>
+</body>
+</html>
