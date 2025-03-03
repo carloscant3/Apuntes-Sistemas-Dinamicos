@@ -36,7 +36,7 @@ $$
   - Aplicamos la definición:
 
 $$
-/( F(s) = \int_{0}^{\infty} e^{-st} e^{3t} dt \)
+( F(s) = \int_{0}^{\infty} e^{-st} e^{3t} dt \)
 $$
 
 
