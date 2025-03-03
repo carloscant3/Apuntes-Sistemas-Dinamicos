@@ -21,7 +21,7 @@
 
 
   $$
-  a_1 \frac{d^2 F}{da^2} + a_2 \frac{dF}{da} + a_3 F = \operatorname{u}(a)
+  a_1 \frac{d^2 F}{da^2} + a_2 \frac{dF}{da} + a_3 F = u(a)
   $$
 
   
