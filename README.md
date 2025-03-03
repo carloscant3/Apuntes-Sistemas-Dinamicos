@@ -77,7 +77,6 @@ $$
 $$
 
 
-![image](https://github.com/user-attachments/assets/b4c08c6e-5720-49f6-a751-746cd7cb48fc)
 
 # 10/feb/2025
 
