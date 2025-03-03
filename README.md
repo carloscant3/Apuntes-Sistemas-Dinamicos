@@ -31,6 +31,7 @@ Ejemplo : Queremos calcular la transformada de laplace de la siguiente función:
 ![image](https://github.com/user-attachments/assets/fa17bdf6-b610-4401-b973-770623dc9164)
 
   - Aplicamos la definición:
+    
     $$
     \( F(s) = \int_{0}^{\infty} e^{-st} e^{3t} dt \)
     $$
