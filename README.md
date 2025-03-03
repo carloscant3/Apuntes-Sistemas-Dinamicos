@@ -47,16 +47,21 @@ $$
 $$
 
 
-- La integral quedaria de la siguiente forma:
+- Calculamos la integral:
 
 $$
 ( F(s) = \left[ \frac{e^{(3-s)t}}{3-s} \right]_{0}^{\infty} \)
 $$
 
 
-  ![image](https://github.com/user-attachments/assets/5ee4bd74-1e4c-49fd-abe5-8ee44caa7c92)
 
 - Evaluamos los limites:
+
+
+$$
+Cuando \( t \to \infty \), si \( s > 3 \), el término \( e^{(3-s)t} \to 0 \)
+Cuando \( t = 0 \), el término es \( \frac{1}{s-3} \) para \( s > 3 \)
+$$
 
 
 ![image](https://github.com/user-attachments/assets/1996cdbc-f7d6-4561-9ad9-3d33b8146c9b)
