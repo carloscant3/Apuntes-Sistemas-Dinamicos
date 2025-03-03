@@ -73,7 +73,7 @@ $$
 - Entonces el resultado final quedaria de la siguiente forma:
 
 $$
-( F(s) = \frac{1}{s-3}, \quad \text{ para } s > 3 \)
+( F(s) = \frac{1}{s-3}, \quad \text{para} s > 3 \)
 $$
 
 
