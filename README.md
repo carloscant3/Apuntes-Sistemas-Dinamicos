@@ -42,6 +42,11 @@ $$
 
 - Simplificamos el exponente:
 
+$$
+( F(s) = \int_{0}^{\infty} e^{(3-s)t} dt \)
+$$
+
+
   ![image](https://github.com/user-attachments/assets/db25d34b-84e9-4822-a926-a0e043ecffea)
 
 - La integral quedaria de la siguiente forma:
