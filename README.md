@@ -30,6 +30,13 @@
   # Transformada de LaPlace
   La transformada de Laplace es una herramienta matemática que se utiliza para analizar sistemas dinámicos, resolver ecuaciones diferenciales y modelar fenómenos en ingeniería y física. Esta transformada convierte señales del dominio del tiempo a una forma más fácil de analizar, lo que ayuda a identificar componentes clave como las exponenciales y las ondas sinusoidales. Estas componentes son esenciales para entender el comportamiento de una señal o sistema en diferentes situaciones.
   Se define como una integral  de la siguiente manera:
+
+
+  $$
+  \mathcal{L} \{ f(t) \} = F(s) = \int_{0}^{\infty} e^{-st} f(t) \, dt
+  $$
+
+  
    ![image](https://github.com/user-attachments/assets/7f33218d-6722-438f-87a7-32ee78d290fd)
 
 Ejemplo : Queremos calcular la transformada de laplace de la siguiente función:
