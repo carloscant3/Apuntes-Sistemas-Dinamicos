@@ -70,7 +70,12 @@ $$
 ![image](https://github.com/user-attachments/assets/1996cdbc-f7d6-4561-9ad9-3d33b8146c9b)
 
 
-- Entonces decimos que:
+- Entonces el resultado final quedaria de la siguiente forma:
+
+$$
+( F(s) = \frac{1}{s-3}, \quad \text{para } s > 3 \)
+$$
+
 
 ![image](https://github.com/user-attachments/assets/b4c08c6e-5720-49f6-a751-746cd7cb48fc)
 
