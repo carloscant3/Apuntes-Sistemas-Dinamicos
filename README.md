@@ -32,15 +32,14 @@ $$
 ( f(t) = e^{3t} \)
 $$
 
-![image](https://github.com/user-attachments/assets/fa17bdf6-b610-4401-b973-770623dc9164)
 
   - Aplicamos la definición:
-    
+
+
     $$
     \( F(s) = \int_{0}^{\infty} e^{-st} e^{3t} dt \)
     $$
 
-    ![image](https://github.com/user-attachments/assets/ea16b7e5-2d80-453a-9130-a9fd957fbab2)
 
 - Simplificamos el exponente:
 
