@@ -47,9 +47,12 @@ $$
 $$
 
 
-  ![image](https://github.com/user-attachments/assets/db25d34b-84e9-4822-a926-a0e043ecffea)
-
 - La integral quedaria de la siguiente forma:
+
+$$
+( F(s) = \left[ \frac{e^{(3-s)t}}{3-s} \right]_{0}^{\infty} \)
+$$
+
 
   ![image](https://github.com/user-attachments/assets/5ee4bd74-1e4c-49fd-abe5-8ee44caa7c92)
 
