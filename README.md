@@ -59,15 +59,11 @@ $$
 
 
 $$
-
 Cuando \( t \to \infty \), si \( s > 3 \), el término \( e^{(3-s)t} \to 0 \)
-
 $$
 
 $$
-
 Cuando \( t = 0 \), el término es \( \frac{1}{s-3} \) para \( s > 3 \)
-
 $$
 
 
