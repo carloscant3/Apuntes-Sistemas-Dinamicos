@@ -18,6 +18,12 @@
 
   # Como lucen los modelos de ecuaciones diferenciales…
   Son combinaciones lineales de derivadas de diferente orden:
+
+
+  $$
+  a_1 \frac{d^2 F}{dt^2} + a_2 \frac{dF}{dt} + a_3 F = u(t)
+  $$
+
   
   ![image](https://github.com/user-attachments/assets/54057239-3757-426a-b4f3-2e6480e5c151)
 
