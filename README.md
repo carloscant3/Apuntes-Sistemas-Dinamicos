@@ -341,6 +341,23 @@ $$
 
 Multiplicamos por \((s + 2)(s + 4)\):
 
+$$
+s + 7 = A(s + 4) + B(s + 2)
+$$
+
+Para encontrar \( A \), hacemos \( s = -2 \):
+
+$$
+-2 + 7 = A(-2 + 4) + B(0)
+$$
+
+$$
+5 = 2A
+$$
+
+$$
+A = \frac{5}{2}
+$$
 
 
   # Caso 2: Raíces reales iguales
