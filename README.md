@@ -309,7 +309,9 @@ $$
 2. Derivamos ambos lados con respecto a \( s \):
 
 $$
-\frac{d}{ds} \left( \frac{s + 3}{s + 1} \right) = \frac{d}{ds} \left( A(s + 2)^2 \cdot \frac{1}{s + 1} + B(s + 2) + C \right)
+\begin{align*}
+\frac{d}{ds} \left( \frac{s+3}{s+1} \right) = \frac{d}{ds} \left( A(s+2)^2 \cdot \frac{1}{s+1} + B(s+2) + C \right)
+\end{align*}
 $$
 
 3. Simplificamos la derivada del lado izquierdo:
