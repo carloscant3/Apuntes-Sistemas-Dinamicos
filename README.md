@@ -270,6 +270,104 @@ $$
 \frac{s + 3}{(s + 1)(s + 2)^2} = \frac{A}{s + 1} + \frac{B}{s + 2} + \frac{C}{(s + 2)^2}
 $$
 
+Para encontrar \( A \), multiplicamos ambos lados por \((s+1)\) y evaluamos en \( s=-1 \):
+
+$$
+A = \frac{s+3}{(s+2)^2} \bigg|_{s=-1}
+$$
+
+Sustituimos \( s=-1 \):
+
+$$
+A = \frac{-1+3}{(-1+2)^2} = \frac{2}{1} = 2
+$$
+
+Coeficiente \( C \) (polo repetido en \( s = -2 \)):
+
+Para encontrar \( C \), multiplicamos ambos lados por \( (s + 2)^2 \) y evaluamos en \( s = -2 \):
+
+$$
+C = \left. \frac{s + 3}{s + 1} \right|_{s=-2}
+$$
+
+Sustituimos \( s = -2 \):
+
+$$
+C = \left. \frac{-2 + 3}{-2 + 1} \right|_{s=-2} = \frac{1}{-1}
+$$
+
+**Coeficiente \( B \) (polo repetido en \( s = -2 \)):**
+
+Para encontrar \( B \), multiplicamos ambos lados por \( (s + 2)^2 \), derivamos con respecto a \( s \), y luego evaluamos en \( s = -2 \):
+
+1. Multiplicamos por \( (s + 2)^2 \):
+
+$$
+\frac{s + 3}{s + 1} = A(s + 2)^2 \cdot \frac{1}{s + 1} + B(s + 2) + C
+$$
+
+2. Derivamos ambos lados con respecto a \( s \):
+
+$$
+\frac{d}{ds} \left( \frac{s + 3}{s + 1} \right) = \frac{d}{ds} \left( A(s + 2)^2 \cdot \frac{1}{s + 1} + B(s + 2) + C \right)
+$$
+
+3. Simplificamos la derivada del lado izquierdo:
+
+$$
+\frac{(1)(s+1)-(s+3)(1)}{(s+1)^2} = \frac{s+1-s-3}{(s+1)^2} = \frac{-2}{(s+1)^2}
+$$
+
+4. Derivada del lado derecho:
+
+$$
+\frac{d}{ds} \left( A(s+2)^2 \cdot \frac{1}{s+1} \right) + \frac{d}{ds} \left( B(s+2) \right) + \frac{d}{ds} \left( C \right)
+$$
+
+- El término \( C \) es una constante, su derivada es 0.
+- El término \( B(s+2) \) tiene derivada \( B \).
+- El término \( A(s+2)^2 \cdot \frac{1}{s+1} \) se deriva usando la regla del producto, pero no es necesario calcularlo porque solo nos interesa evaluar en \( s=-2 \).
+
+5. Evaluamos en \( s = -2 \):
+
+$$
+\frac{-2}{(-2 + 1)^2} = B
+$$
+
+$$
+\frac{-2}{1} = B \implies B = -2
+$$
+
+Sustituimos los valores de \( A, B \) y \( C \):
+
+$$
+F(s) = \frac{2}{s+1} - \frac{2}{s+2} - \frac{1}{(s+2)^2}
+$$
+
+1. Para \(\frac{2}{s+1}\):
+
+$$
+{\cal L}^{-1} \left\{ \frac{2}{s+1} \right\} = 2e^{-t}
+$$
+
+2. Para \(\frac{-2}{s+2}\):
+
+$$
+{\cal L}^{-1} \left\{ \frac{-2}{s+2} \right\} = -2e^{-2t}
+$$
+
+3. Para \(\frac{-1}{(s+2)^2}\):
+
+$$
+{\cal L}^{-1} \left\{ \frac{-1}{(s+2)^2} \right\} = -te^{-2t}
+$$
+
+Sumamos las transformadas inversas de cada término:
+
+$$
+f(t) = 2e^{-t} - 2e^{-2t} - te^{-2t}
+$$
+
 
 # 21/feb/2025
 
