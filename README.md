@@ -213,7 +213,6 @@ $$
 
 Para el segundo termino:
 
-
 $$
 \frac{1}{(s+2)^2+9}
 $$
