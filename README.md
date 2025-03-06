@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/230802a5-1ce6-4468-997e-bd355b57b7fb)# Apuntes-Sistemas-Dinamicos
-
+# Apuntes sistemas dinamicos
  
 # 7/feb/2025
 
