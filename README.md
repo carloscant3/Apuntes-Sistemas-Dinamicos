@@ -359,7 +359,7 @@ $$
 
 $$
 \begin{align*}
-\mathcal{L}^{-1} \left\{ \frac{2}{s+1} \right\} = 2e^{-t}
+\mathcal{L}^{-1} \{ \frac{2}{s+1} \} = 2e^{-t}
 \end{align*}
 $$
 
