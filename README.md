@@ -198,6 +198,41 @@ F(s) = \frac{3(s+2)}{(s+2)^2+9} - \frac{1}{(s+2)^2+9}
 $$
 
 
+Para el primer termino: 
+
+$$
+\frac{3(s+2)}{(s+2)^2+9}
+$$
+
+
+$$
+\begin{align*}
+\mathcal{L}^{-1} \left\{ \frac{3(s+2)}{(s+2)^2+9} \right\}= 3 e^{-2t} \cos(3t)
+\end{align*}
+$$
+
+Para el segundo termino:
+
+
+$$
+\frac{1}{(s+2)^2+9}
+$$
+
+
+$$
+\begin{align*}
+{\cal L}^{-1}\left\{\frac{1}{(s+2)^2+9}\right\}=\frac{1}{3}e^{-2t}\sin(3t)
+\end{align*}
+$$
+
+Sumamos las transformadas inversas de cada término:
+
+
+$$
+f(t) = e^{-2t} \left( 3 \cos(3t) - \frac{1}{3} \sin(3t) \right)
+$$
+
+
 # 17/feb/2025
 
 # Transformada inversa (Método resumido)
