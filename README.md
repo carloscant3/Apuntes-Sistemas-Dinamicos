@@ -607,11 +607,11 @@ Aplicamos la transformada inversa de Laplace:
 Usando la tabla de transformadas inversas:
 
 $$
-\mathcal{L}^{-1} \left\{ \frac{5}{s+2} \right\} = 5 e^{-2t}
+\mathcal{L}^{-1} \left( \frac{5}{s+2} \right) = 5 e^{-2t}
 $$
 
 $$
-\mathcal{L}^{-1} \left\{ \frac{6}{(s+2)^2} \right\} = 6t e^{-2t}
+\mathcal{L}^{-1} \left( \frac{6}{(s+2)^2} \right) = 6t e^{-2t}
 $$
 
 
