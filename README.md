@@ -1,4 +1,4 @@
-# Apuntes-Sistemas-Dinamicos
+![image](https://github.com/user-attachments/assets/230802a5-1ce6-4468-997e-bd355b57b7fb)# Apuntes-Sistemas-Dinamicos
 
  
 # 7/feb/2025
@@ -160,6 +160,42 @@ $$
   # Transformada inversa de Laplace
 
 # Ejemplo 2
+
+
+$$
+F(s) = \frac{3s + 5}{s^2 + 4s + 13}
+$$
+
+
+Factorizamos el denominador
+
+
+$$
+s = \frac{-4 \pm \sqrt{16 - 52}}{2} = \frac{-4 \pm \sqrt{-36}}{2} = \frac{-4 \pm 6i}{2} = -2 \pm 3i
+$$
+
+Completar el cuadrado en el denominador
+
+$$
+\begin{align*}
+s^2 + 4s + 13 = (s^2 + 4s + 4) + 9 = (s + 2)^2 + 9
+\end{align*}
+$$
+
+Ahora expresamo a F(s)
+
+
+$$
+F(s) = \frac{3s + 5}{(s + 2)^2 + 9}
+$$
+
+
+Separamos en dos terminos:
+
+
+$$
+F(s) = \frac{3(s+2)}{(s+2)^2+9} - \frac{1}{(s+2)^2+9}
+$$
 
 
 # 17/feb/2025
