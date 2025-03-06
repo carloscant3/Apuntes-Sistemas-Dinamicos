@@ -228,7 +228,13 @@ $$
 Teniendo en cuenta lo anteriormente mencionado podemos encontrar la transformada inversa de cada termino:
 
 Según la tabla de transformadas inversas de Laplace 
-\frac{1}{s + a}  es   ![image](https://github.com/user-attachments/assets/c0762ae0-98b9-481a-bcc5-ec7f9d6b2bb1)
+$$
+\frac{1}{s + a}
+$$  es  
+
+$$
+\quad 2e^{-t}
+$$
 
 
 Por ende la transformada inversa de $$
