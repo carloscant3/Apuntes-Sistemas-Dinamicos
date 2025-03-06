@@ -358,7 +358,9 @@ $$
 
 
 $$
-{\cal L}^{-1} \left\{ \frac{2}{s+1} \right\} = 2e^{-t}
+\begin{align*}
+\mathcal{L}^{-1} \left\{ \frac{2}{s+1} \right\} = 2e^{-t}
+\end{align*}
 $$
 
 
