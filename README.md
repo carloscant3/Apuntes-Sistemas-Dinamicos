@@ -175,19 +175,35 @@ Las raíces reales diferentes son simplemente los valores de una ecuación en lo
 
 # Ejemplo: 
 
-![image](https://github.com/user-attachments/assets/90e0435b-413c-44c1-8664-1dc27f487eb8)
+$$
+\frac{s+5}{(s+1)(s+3)}
+$$
 
 Descomponemos en fracciones parciales: 
 
-![image](https://github.com/user-attachments/assets/57de157e-d312-4d86-9a84-9520ea94e142)
+$$
+\frac{s+5}{(s+1)(s+3)} = \frac{A}{s+1} + \frac{B}{s+3}
+$$
 
 Luego multiplicamos por ambos lados:
 
-![image](https://github.com/user-attachments/assets/f2af4794-295f-4885-95a8-0191ea22a0c0)
+$$
+s + 5 = A(s + 3) + B(s + 1)
+$$
 
 Para encontrar A, decimos que s = -1
 
-![image](https://github.com/user-attachments/assets/5950387f-2869-4338-91c1-7c2b8672f40b)
+$$
+-1 + 5 = A(-1 + 3) + B(-1 + 1)
+$$
+
+$$
+4 = 2A
+$$
+
+$$
+A = 2
+$$
 
 Para encontrar B, decimos que s = -3
 
