@@ -327,18 +327,12 @@ $$
 $$
 
 - El término \( C \) es una constante, su derivada es 0.
-- El término
+- El término ![image](https://github.com/user-attachments/assets/7f8f10f9-ce99-477d-8421-94bf6bf1b391)
 
-  $$
-  \( B(s+2) \)
-  $$
 
   tiene derivada (B).
-- El término
+- El término ![image](https://github.com/user-attachments/assets/1677babf-e74a-446c-bec2-a603ee70a068) se deriva usando la regla del producto, pero no es necesario calcularlo porque solo nos interesa evaluar en ![image](https://github.com/user-attachments/assets/d398bf49-2488-4b68-873d-327a00606990).
 
-  $$
-  \( A(s+2)^2 \cdot \frac{1}{s+1} \) se deriva usando la regla del producto, pero no es necesario calcularlo porque solo nos interesa evaluar en \( s=-2 \).
-  $$
   
 
 5. Evaluamos en \( s = -2 \):
