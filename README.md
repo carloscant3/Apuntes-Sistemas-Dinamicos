@@ -385,16 +385,35 @@ $$
 \mathcal{L}^{-1} \left\{ \frac{5}{2} \cdot \frac{1}{s + 2} \right\} = \frac{5}{2} e^{-2t}
 $$
 
+Por lo tanto, la transformada inversa de  
+
 $$
-\mathcal{L}^{-1} \left\{ \frac{3}{2} \cdot \frac{1}{s + 4} \right\} = \frac{3}{2} e^{-4t}
+\frac{5}{2} \cdot \frac{1}{s + 2}
 $$
 
-Por lo tanto, la transformada inversa final es:
+es  
+
+$$
+\frac{5}{2} e^{-2t}
+$$
+
+Y la transformada inversa de  
+
+$$
+\frac{3}{2} \cdot \frac{1}{s + 4}
+$$
+
+es  
+
+$$
+\frac{3}{2} e^{-4t}
+$$
+
+Por lo tanto, el resultado final o la transformada inversa es:  
 
 $$
 f(t) = \frac{5}{2} e^{-2t} - \frac{3}{2} e^{-4t}
 $$
-
 
   # Caso 2: Raíces reales iguales
   
