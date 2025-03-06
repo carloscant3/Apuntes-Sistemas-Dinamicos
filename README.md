@@ -257,6 +257,18 @@ f(t) = 2e^{-t} - e^{-3t}
 $$
 
   # Caso 2: Raíces reales iguales
+  
+  # Ejemplo:
+  
+$$
+F(s) = \frac{s + 3}{(s + 1)(s + 2)^2}
+$$
+
+La descomposición en fracciones parciales es de la forma:
+
+$$
+\frac{s + 3}{(s + 1)(s + 2)^2} = \frac{A}{s + 1} + \frac{B}{s + 2} + \frac{C}{(s + 2)^2}
+$$
 
 
 # 21/feb/2025
