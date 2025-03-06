@@ -399,7 +399,31 @@ $$
 
 # Caso 3: Raíces complejas conjugadas
 
+# Ejemplo
 
+$$
+F(s) = \frac{s + 1}{s^2 + 4s + 13}
+$$
+
+Factorizar el denominador
+
+$$
+s = \frac{-4 \pm \sqrt{16 - 52}}{2} = \frac{-4 \pm \sqrt{-36}}{2} = \frac{-4 \pm 6i}{2} = -2 \pm 3i
+$$
+
+Expresar F (s) en terminos de las raices complejas
+
+$$
+F(s) = \frac{s + 1}{(s + 2 - 3i)(s + 2 + 3i)}
+$$
+
+Completamos el cuadrado en el denominador
+
+$$
+s^2 + 4s + 13 = (s^2 + 4s + 4) + 9 = (s + 2)^2 + 9
+$$
+
+Reescribimos F(s)
 
 
 
