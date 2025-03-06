@@ -146,7 +146,7 @@ $$
   La transformada inversa es: 
 
 
-  $$
+ $$
 F(s) = \frac{s+1}{s^2(s+2)} \quad \mathbf{es}
 $$
 
@@ -241,6 +241,7 @@ $$
 $$
 
 y, la transformada inversa de  
+
 $$
 \frac{1}{s+3}
 $$  
