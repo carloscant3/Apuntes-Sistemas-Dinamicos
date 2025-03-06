@@ -327,8 +327,19 @@ $$
 $$
 
 - El término \( C \) es una constante, su derivada es 0.
-- El término \( B(s+2) \) tiene derivada \( B \).
-- El término \( A(s+2)^2 \cdot \frac{1}{s+1} \) se deriva usando la regla del producto, pero no es necesario calcularlo porque solo nos interesa evaluar en \( s=-2 \).
+- El término
+
+  $$
+  \( B(s+2) \)
+  $$
+
+  tiene derivada (B).
+- El término
+
+  $$
+  \( A(s+2)^2 \cdot \frac{1}{s+1} \) se deriva usando la regla del producto, pero no es necesario calcularlo porque solo nos interesa evaluar en \( s=-2 \).
+  $$
+  
 
 5. Evaluamos en \( s = -2 \):
 
