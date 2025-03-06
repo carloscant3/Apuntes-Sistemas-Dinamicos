@@ -207,7 +207,7 @@ $$
 
 $$
 \begin{align*}
-\mathcal{L}^{-1} \left\{ \frac{3(s+2)}{(s+2)^2+9} \right\}= 3 e^{-2t} \cos(3t)
+\mathcal{L}^{-1} \left( \frac{3(s+2)}{(s+2)^2+9} \right) = 3 e^{-2t} \cos(3t)
 \end{align*}
 $$
 
@@ -221,9 +221,10 @@ $$
 
 $$
 \begin{align*}
-{\cal L}^{-1}\left\{\frac{1}{(s+2)^2+9}\right\}=\frac{1}{3}e^{-2t}\sin(3t)
+{\cal L}^{-1} \left( \frac{1}{(s+2)^2+9} \right) = \frac{1}{3} e^{-2t} \sin(3t)
 \end{align*}
 $$
+
 
 Sumamos las transformadas inversas de cada término:
 
