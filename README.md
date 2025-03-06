@@ -359,6 +359,42 @@ $$
 A = \frac{5}{2}
 $$
 
+Para encontrar \( B \), hacemos \( s = -4 \):
+
+$$
+-4 + 7 = A(0) + B(-4 + 2)
+$$
+
+$$
+3 = -2B
+$$
+
+$$
+B = -\frac{3}{2}
+$$
+
+Sustituyendo en la fracción original:
+
+$$
+F(s) = \frac{5}{2} \frac{1}{s + 2} - \frac{3}{2} \frac{1}{s + 4}
+$$
+
+Aplicando la transformada inversa de Laplace:
+
+$$
+\mathcal{L}^{-1} \left\{ \frac{5}{2} \frac{1}{s + 2} \right\} = \frac{5}{2} e^{-2t}f
+$$
+
+$$
+\mathcal{L}^{-1} \left\{ \frac{3}{2} \frac{1}{s + 4} \right\} = \frac{3}{2} e^{-4t}
+$$
+
+Por lo tanto, la transformada inversa final es:
+
+$$
+f(t) = \frac{5}{2} e^{-2t} - \frac{3}{2} e^{-4t}
+$$
+
 
   # Caso 2: Raíces reales iguales
   
