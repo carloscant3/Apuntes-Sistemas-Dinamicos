@@ -553,26 +553,26 @@ $$
 
 # Ejemplo 2
 
-Dada la función:  
+**Dada la función:** 
 
 $$
 F(s) = \frac{5s + 4}{(s+2)^2}
 $$
 
-Descomposición en fracciones parciales:
+**Descomposición en fracciones parciales:**
 Se busca expresar \( F(s) \) en la forma:
 
 $$
 \frac{5s + 4}{(s+2)^2} = \frac{A}{s+2} + \frac{B}{(s+2)^2}
 $$
 
-Multiplicamos ambos lados por \( (s+2)^2 \) y resolvemos para \( A \) y \( B \):
+**Multiplicamos ambos lados por \( (s+2)^2 \) y resolvemos para \( A \) y \( B \):**
 
 $$
 5s + 4 = A(s+2) + B
 $$
 
-Sustituyendo \( s = -2 \) para encontrar \( B \):
+**Sustituyendo \( s = -2 \) para encontrar \( B \):**
 
 $$
 5(-2) + 4 = A(0) + B
@@ -596,13 +596,13 @@ $$
 
 Entonces \( A = 5 \).
 
-Sustituyendo los valores en la fracción parcial:
+**Sustituyendo los valores en la fracción parcial:**
 
 $$
 F(s) = \frac{5}{s+2} - \frac{6}{(s+2)^2}
 $$
 
-Aplicamos la transformada inversa de Laplace:
+**Aplicamos la transformada inversa de Laplace:**
 
 Usando la tabla de transformadas inversas:
 
@@ -614,10 +614,11 @@ $$
 \mathcal{L}^{-1} \left( \frac{6}{(s+2)^2} \right) = 6t e^{-2t}
 $$
 
+**Resultado final:**  
 
-
-
-
+$$
+f(t) = 5e^{-2t} - 6t e^{-2t}
+$$
 
 
 # 21/feb/2025
