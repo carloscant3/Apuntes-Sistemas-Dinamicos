@@ -370,8 +370,9 @@ $$
 
 
 $$
-{\cal L}^{-1} \left\{ \frac{-2}{s+2} \right\} = -2e^{-2t}
+{\cal L}^{-1} \left( \frac{-2}{s+2} \right) = -2e^{-2t}
 $$
+
 
 
 $$
@@ -380,8 +381,9 @@ $$
 
 
 $$
-{\cal L}^{-1} \left\{ \frac{-1}{(s+2)^2} \right\} = -te^{-2t}
+{\cal L}^{-1} \bigl\{ \frac{-1}{(s+2)^2} \bigr\} = -t e^{-2t}
 $$
+
 
 
 Sumamos las transformadas inversas de cada término:
