@@ -553,6 +553,45 @@ $$
 
 # Ejemplo 2
 
+Dada la función:  
+
+$$
+F(s) = \frac{5s + 4}{(s+2)^2}
+$$
+
+Descomposición en fracciones parciales:
+Se busca expresar \( F(s) \) en la forma:
+
+$$
+\frac{5s + 4}{(s+2)^2} = \frac{A}{s+2} + \frac{B}{(s+2)^2}
+$$
+
+Multiplicamos ambos lados por \( (s+2)^2 \) y resolvemos para \( A \) y \( B \):
+
+$$
+5s + 4 = A(s+2) + B
+$$
+
+Sustituyendo \( s = -2 \) para encontrar \( B \):
+
+$$
+5(-2) + 4 = A(0) + B
+$$
+
+$$
+-10 + 4 = B
+$$
+
+$$
+B = -6
+$$
+
+
+
+
+
+
+
 
 
 
