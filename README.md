@@ -296,7 +296,7 @@ $$
 C = \left. \frac{-2 + 3}{-2 + 1} \right|_{s=-2} = \frac{1}{-1}
 $$
 
-**Coeficiente \( B \) (polo repetido en \( s = -2 \)):**
+**Coeficiente \( B \) ( repetido en \( s = -2 \)):**
 
 Para encontrar \( B \), multiplicamos ambos lados por \( (s + 2)^2 \), derivamos con respecto a \( s \), y luego evaluamos en \( s = -2 \):
 
@@ -351,25 +351,39 @@ $$
 F(s) = \frac{2}{s+1} - \frac{2}{s+2} - \frac{1}{(s+2)^2}
 $$
 
-1. Para \(\frac{2}{s+1}\):
+
+$$
+Para \(\frac{2}{s+1}\):
+$$
+
 
 $$
 {\cal L}^{-1} \left\{ \frac{2}{s+1} \right\} = 2e^{-t}
 $$
 
-2. Para \(\frac{-2}{s+2}\):
+
+$$
+Para \(\frac{-2}{s+2}\):
+$$
+
 
 $$
 {\cal L}^{-1} \left\{ \frac{-2}{s+2} \right\} = -2e^{-2t}
 $$
 
-3. Para \(\frac{-1}{(s+2)^2}\):
+
+$$
+Para \(\frac{-1}{(s+2)^2}\):
+$$
+
 
 $$
 {\cal L}^{-1} \left\{ \frac{-1}{(s+2)^2} \right\} = -te^{-2t}
 $$
 
+
 Sumamos las transformadas inversas de cada término:
+
 
 $$
 f(t) = 2e^{-t} - 2e^{-2t} - te^{-2t}
