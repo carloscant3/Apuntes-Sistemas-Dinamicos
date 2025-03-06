@@ -333,6 +333,14 @@ $$
 \frac{s + 7}{(s + 2)(s + 4)}
 $$
 
+Multiplicamos por ambos lados:
+
+$$
+\frac{s + 7}{(s + 2)(s + 4)} = \frac{A}{s + 2} + \frac{B}{s + 4}
+$$
+
+Multiplicamos por \((s + 2)(s + 4)\):
+
 
 
   # Caso 2: Raíces reales iguales
