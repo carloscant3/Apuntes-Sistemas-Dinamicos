@@ -425,7 +425,52 @@ $$
 
 Reescribimos F(s)
 
+$$
+F(s) = \frac{s+1}{(s+2)^2+9}
+$$
 
+Para que el numerador coincida con la forma estándar de la transformada inversa de Laplace, lo reescribimos como:
+
+$$
+F(s) = \frac{(s+2)-1}{(s+2)^2+9}
+$$
+
+Separamos en dos términos:
+
+$$
+F(s) = \frac{s + 2}{(s + 2)^2 + 9} - \frac{1}{(s + 2)^2 + 9}
+$$
+
+Ahora aplicamos la transformada inversa a cada término
+
+Para el primer termino: 
+
+$$
+\frac{s+2}{(s+2)^2+9}
+$$
+
+
+$$
+\mathcal{L}^{-1} \left( \frac{s+2}{(s+2)^2 + 9} \right) = e^{-2t} \cos(3t)
+$$
+
+
+Para el segundo término:
+
+$$
+\frac{1}{(s+2)^2+9}
+$$
+
+$$
+{\cal L}^{-1} \left( \frac{1}{(s+2)^2+9} \right) = \frac{1}{3} e^{-2t} \sin(3t)
+$$
+
+
+Sumamos las transformadas inversas de cada término:
+
+$$
+f(t) = e^{-2t} \cos(3t) - \frac{1}{3} e^{-2t} \sin(3t)
+$$
 
 
 
