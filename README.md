@@ -381,17 +381,13 @@ $$
 
 Aplicando la transformada inversa de Laplace:
 
-$$
-\mathcal{L}^{-1} \left\{ \frac{5}{2} \cdot \frac{1}{s + 2} \right\} = \frac{5}{2} e^{-2t}
-$$
-
-Por lo tanto, la transformada inversa de  
+La transformada inversa de  
 
 $$
 \frac{5}{2} \cdot \frac{1}{s + 2}
 $$
 
-es  
+es:
 
 $$
 \frac{5}{2} e^{-2t}
@@ -403,7 +399,7 @@ $$
 \frac{3}{2} \cdot \frac{1}{s + 4}
 $$
 
-es  
+es:  
 
 $$
 \frac{3}{2} e^{-4t}
