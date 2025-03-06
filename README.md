@@ -586,8 +586,33 @@ $$
 B = -6
 $$
 
+**Para encontrar \( A \), derivamos ambos lados y evaluamos en \( s = -2 \):**
 
+Derivamos:
 
+$$
+5 = A
+$$
+
+Entonces \( A = 5 \).
+
+Sustituyendo los valores en la fracción parcial:
+
+$$
+F(s) = \frac{5}{s+2} - \frac{6}{(s+2)^2}
+$$
+
+Aplicamos la transformada inversa de Laplace:
+
+Usando la tabla de transformadas inversas:
+
+$$
+\mathcal{L}^{-1} \left\{ \frac{5}{s+2} \right\} = 5 e^{-2t}
+$$
+
+$$
+\mathcal{L}^{-1} \left\{ \frac{6}{(s+2)^2} \right\} = 6t e^{-2t}
+$$
 
 
 
