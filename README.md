@@ -95,7 +95,7 @@ $$
 
   # Transformada inversa de Laplace
 
-  Ejemplo:
+ # Ejemplo 1
   
   $$
 \frac{s+1}{s^2(s+2)}
@@ -159,6 +159,7 @@ $$
 
   # Transformada inversa de Laplace
 
+# Ejemplo 2
 
 
 # 17/feb/2025
@@ -173,7 +174,7 @@ Las raíces reales diferentes son simplemente los valores de una ecuación en lo
 
 ![image](https://github.com/user-attachments/assets/342f9510-d63b-4b5e-bc95-304f22a33564)
 
-# Ejemplo: 
+# Ejemplo 1: 
 
 $$
 \frac{s+5}{(s+1)(s+3)}
@@ -256,9 +257,16 @@ $$
 f(t) = 2e^{-t} - e^{-3t}
 $$
 
+
+
+# Ejemplo 2
+
+
+
+
   # Caso 2: Raíces reales iguales
   
-  # Ejemplo:
+  # Ejemplo 1
   
 $$
 F(s) = \frac{s + 3}{(s + 1)(s + 2)^2}
@@ -395,11 +403,21 @@ f(t) = 2e^{-t} - 2e^{-2t} - te^{-2t}
 $$
 
 
+
+# Ejemplo 2
+
+
+
+
 # 21/feb/2025
 
 # Caso 3: Raíces complejas conjugadas
 
-# Ejemplo
+
+
+# Ejemplo 1
+
+
 
 $$
 F(s) = \frac{s + 1}{s^2 + 4s + 13}
@@ -471,6 +489,9 @@ Sumamos las transformadas inversas de cada término:
 $$
 f(t) = e^{-2t} \cos(3t) - \frac{1}{3} e^{-2t} \sin(3t)
 $$
+
+
+# Ejemplo 2
 
 
 
