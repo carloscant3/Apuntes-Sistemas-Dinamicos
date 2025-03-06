@@ -382,11 +382,11 @@ $$
 Aplicando la transformada inversa de Laplace:
 
 $$
-\mathcal{L}^{-1} \left\{ \frac{5}{2} \frac{1}{s + 2} \right\} = \frac{5}{2} e^{-2t}f
+\mathcal{L}^{-1} \left\{ \frac{5}{2} \cdot \frac{1}{s + 2} \right\} = \frac{5}{2} e^{-2t}
 $$
 
 $$
-\mathcal{L}^{-1} \left\{ \frac{3}{2} \frac{1}{s + 4} \right\} = \frac{3}{2} e^{-4t}
+\mathcal{L}^{-1} \left\{ \frac{3}{2} \cdot \frac{1}{s + 4} \right\} = \frac{3}{2} e^{-4t}
 $$
 
 Por lo tanto, la transformada inversa final es:
