@@ -228,25 +228,32 @@ $$
 Teniendo en cuenta lo anteriormente mencionado podemos encontrar la transformada inversa de cada termino:
 
 Según la tabla de transformadas inversas de Laplace 
-$$
-\frac{1}{s + a}
-$$  es  
 
 $$
-\quad 2e^{-t}
-$$
-
-
-Por ende la transformada inversa de $$
 \frac{2}{s+1} \quad \text{es} \quad 2e^{-t}
 $$
 
-y, la transformada inversa de ![image](https://github.com/user-attachments/assets/70f6fa13-4e7b-4e6f-b3d8-1b1acf16ff63)
-es   ![image](https://github.com/user-attachments/assets/2bddae17-dd00-44e3-952b-f2635d03a58d)
+
+Por ende la transformada inversa de 
+
+$$
+\frac{2}{s+1} \quad \text{es} \quad 2e^{-t}
+$$
+
+y, la transformada inversa de  
+$$
+\frac{1}{s+3}
+$$  
+es  
+$$
+e^{-3t}
+$$
 
 Por lo tanto el resultado final o la transformada inversa es:
 
-![image](https://github.com/user-attachments/assets/b938e787-afe6-4e64-8b7a-6c2e36327a5c)
+$$
+f(t) = 2e^{-t} - e^{-3t}
+$$
 
   # Caso 2: Raíces reales iguales
 
