@@ -700,10 +700,89 @@ $$
 
 # Ejemplo 2
 
+**Encuentra la transformada inversa de Laplace de:**
 
+$$
+F(s) = \frac{s + 5}{s^2 + 2s + 10}
+$$
 
+**Factorizamos el denominador**
+La ecuación cuadrática en el denominador es:
 
+$$
+s^2 + 2s + 10
+$$
 
+Completamos el cuadrado:
+
+$$
+s^2 + 2s + 1 + 9 = (s+1)^2 + 9
+$$
+
+Por lo tanto:
+
+$$
+s^2 + 2s + 10 = (s+1)^2 + 3^2
+$$
+
+**Tenemos que encontrar las raíces del denominador**
+
+Resolvemos la ecuación cuadrática:
+
+$$
+s^2 + 2s + 10 = 0
+$$
+
+Usamos la fórmula general:
+
+$$
+s = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+Sustituyamos los valores \( a = 1 \), \( b = 2 \), \( c = 10 \):
+
+$$
+s = \frac{-2 \pm \sqrt{2^2 - 4(1)(10)}}{2(1)}
+$$
+
+$$
+s = \frac{-2 \pm \sqrt{4 - 40}}{2}
+$$
+
+$$
+s = \frac{-2 \pm \sqrt{-36}}{2}
+$$
+
+$$
+s = \frac{-2 \pm 6i}{2}
+$$
+
+$$
+s = -1 \pm 3i
+$$
+
+Las raíces del denominador son \( s = -1 + 3i \) y \( s = -1 - 3i \), que son **conjugadas complejas**.
+
+---
+
+### **Paso 3: Expresar la fracción en términos de una forma reconocida**
+Descomponemos el numerador:
+
+$$
+s + 5 = (s+1) + 4
+$$
+
+Reescribimos \( F(s) \):
+
+$$
+F(s) = \frac{(s+1) + 4}{(s+1)^2 + 9}
+$$
+
+Separamos en dos fracciones:
+
+$$
+F(s) = \frac{s+1}{(s+1)^2 + 9} + \frac{4}{(s+1)^2 + 9}
+$$
 
 
 
