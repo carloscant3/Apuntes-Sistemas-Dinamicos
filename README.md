@@ -173,7 +173,6 @@ $$
 s^2 + 6s + 13 = (s+3)^2 + 2^2
 $$
 
----
 
 ### **Separamos el numerador para operar**
 El numerador es \( 2s + 7 \). Lo reescribimos en términos de \( (s+3) \):
@@ -193,8 +192,6 @@ Separamos en dos fracciones:
 $$
 F(s) = \frac{2(s+3)}{(s+3)^2 + 2^2} + \frac{1}{(s+3)^2 + 2^2}
 $$
-
----
 
 ### **Aplicamos las transformadas inversas**
 Sabemos que:
