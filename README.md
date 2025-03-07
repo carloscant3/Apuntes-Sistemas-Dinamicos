@@ -33,10 +33,8 @@
   \mathcal{L} \{ f(t) \} = F(s) = \int_{0}^{\infty} e^{-st} f(t) \, dt
   $$
 
-  
-   ![image](https://github.com/user-attachments/assets/7f33218d-6722-438f-87a7-32ee78d290fd)
 
-Ejemplo : Queremos calcular la transformada de laplace de la siguiente función:
+**Ejemplo : Queremos calcular la transformada de laplace de la siguiente función:**
 
 $$
 ( f(t) = e^{3t} \)
