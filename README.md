@@ -820,16 +820,12 @@ $$
 \mathcal{L}^{-1} \left( \frac{4}{(s+1)^2 + 9} \right) = \frac{4}{3} e^{-t} \sin(3t)
 $$
 
----
-
 ### **Solución final**
 Sumando los términos:
 
 $$
 f(t) = e^{-t} \cos(3t) + \frac{4}{3} e^{-t} \sin(3t)
 $$
-
----
 
 ### **Conclusión**
 Hemos encontrado la transformada inversa de Laplace:
