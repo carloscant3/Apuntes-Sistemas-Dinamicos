@@ -148,6 +148,81 @@ $$
 
 # Ejemplo 2:
 
+**Encuentra la transformada inversa de Laplace de:**
+
+$$
+F(s) = \frac{2s + 7}{s^2 + 6s + 13}
+$$
+
+### Factorizamos el denominador**
+El denominador es:
+
+$$
+s^2 + 6s + 13
+$$
+
+Completamos el cuadrado:
+
+$$
+s^2 + 6s + 9 + 4 = (s+3)^2 + 4
+$$
+
+Por lo tanto:
+
+$$
+s^2 + 6s + 13 = (s+3)^2 + 2^2
+$$
+
+---
+
+### **Separamos el numerador para operar**
+El numerador es \( 2s + 7 \). Lo reescribimos en términos de \( (s+3) \):
+
+$$
+2s + 7 = 2(s+3) + 1
+$$
+
+Reescribimos \( F(s) \):
+
+$$
+F(s) = \frac{2(s+3) + 1}{(s+3)^2 + 2^2}
+$$
+
+Separamos en dos fracciones:
+
+$$
+F(s) = \frac{2(s+3)}{(s+3)^2 + 2^2} + \frac{1}{(s+3)^2 + 2^2}
+$$
+
+---
+
+### **Aplicamos las transformadas inversas**
+Sabemos que:
+
+$$
+\mathcal{L}^{-1} \left( \frac{s-a}{(s-a)^2 + b^2} \right) = e^{at} \cos(bt)
+$$
+
+$$
+\mathcal{L}^{-1} \left( \frac{b}{(s-a)^2 + b^2} \right) = e^{at} \sin(bt)
+$$
+
+Comparando con nuestras fracciones:
+
+- Para la primera fracción, \( a = -3 \), \( b = 2 \), y el numerador tiene un \( 2 \), por lo que corresponde a \( e^{-3t} \cos(2t) \).
+- Para la segunda fracción, necesitamos un \( 2 \) en el numerador, así que multiplicamos y dividimos por \( 2 \):
+
+$$
+\frac{1}{(s+3)^2 + 2^2} = \frac{1}{2} \cdot \frac{2}{(s+3)^2 + 2^2}
+$$
+
+Esto corresponde a \( \frac{1}{2} e^{-3t} \sin(2t) \).
+
+### **Solución final**
+
+$$
+f(t) = 2e^{-3t} \cos(2t) + \frac{1}{2} e^{-3t} \sin(2t)
+$$
 
 
 
