@@ -919,6 +919,9 @@ $$
 F(s) = \frac{s + 5}{s^2 + 2s + 10} \quad \longrightarrow \quad f(t) = e^{-t} \cos(3t) + \frac{4}{3} e^{-t} \sin(3t)
 $$
 
+# Conclusión general de los temas vistos
+
+La transformada inversa de Laplace es una herramienta fundamental en el análisis de sistemas dinámicos, permitiendo convertir funciones en el dominio de Laplace al dominio del tiempo. Su aplicación depende de la naturaleza de las raíces del denominador en la función de transferencia. Cuando las raíces son reales y diferentes, la solución se expresa como una suma de exponenciales simples. Si las raíces son reales e iguales, aparecen términos polinómicos multiplicados por exponenciales, reflejando una respuesta crítica. En el caso de raíces complejas conjugadas, la solución incluye funciones senoidales amortiguadas, indicando un comportamiento oscilatorio. Comprender estos casos es esencial para modelar y predecir el comportamiento de sistemas en ingeniería y física.
 
 
 
