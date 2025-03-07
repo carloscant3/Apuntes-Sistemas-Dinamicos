@@ -77,9 +77,6 @@ Cuando \( t = 0 \), el término es \( \frac{1}{s-3} \) para \( s > 3 \)
 $$
 
 
-![image](https://github.com/user-attachments/assets/1996cdbc-f7d6-4561-9ad9-3d33b8146c9b)
-
-
 - Entonces el resultado final quedaria de la siguiente forma:
 
 $$
