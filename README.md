@@ -765,7 +765,7 @@ Las raíces del denominador son \( s = -1 + 3i \) y \( s = -1 - 3i \), que son *
 
 ---
 
-### **Paso 3: Expresar la fracción en términos de una forma reconocida**
+### **Expresar la fracción en términos de una forma reconocida**
 Descomponemos el numerador:
 
 $$
@@ -784,6 +784,59 @@ $$
 F(s) = \frac{s+1}{(s+1)^2 + 9} + \frac{4}{(s+1)^2 + 9}
 $$
 
+### **Identificamos las transformadas inversas**
+De la tabla de transformadas de Laplace, sabemos que:
+
+$$
+\mathcal{L}^{-1} \left( \frac{s-a}{(s-a)^2 + b^2} \right) = e^{at} \cos(bt)
+$$
+
+$$
+\mathcal{L}^{-1} \left( \frac{b}{(s-a)^2 + b^2} \right) = e^{at} \sin(bt)
+$$
+
+Comparando con nuestras fracciones:
+
+- Para la primera fracción, \( a = -1 \), \( b = 3 \).
+- Para la segunda fracción, necesitamos un \( 3 \) en el numerador, así que factorizamos:
+
+$$
+\frac{4}{(s+1)^2 + 9} = \frac{4}{3} \cdot \frac{3}{(s+1)^2 + 9}
+$$
+
+Aplicamos las transformadas inversas:
+
+$$
+\mathcal{L}^{-1} \left( \frac{s+1}{(s+1)^2 + 9} \right) = e^{-t} \cos(3t)
+$$
+
+$$
+\mathcal{L}^{-1} \left( \frac{3}{(s+1)^2 + 9} \right) = e^{-t} \sin(3t)
+$$
+
+Multiplicamos la segunda ecuación por \( \frac{4}{3} \):
+
+$$
+\mathcal{L}^{-1} \left( \frac{4}{(s+1)^2 + 9} \right) = \frac{4}{3} e^{-t} \sin(3t)
+$$
+
+---
+
+### **Solución final**
+Sumando los términos:
+
+$$
+f(t) = e^{-t} \cos(3t) + \frac{4}{3} e^{-t} \sin(3t)
+$$
+
+---
+
+### **Conclusión**
+Hemos encontrado la transformada inversa de Laplace:
+
+$$
+F(s) = \frac{s + 5}{s^2 + 2s + 10} \quad \longrightarrow \quad f(t) = e^{-t} \cos(3t) + \frac{4}{3} e^{-t} \sin(3t)
+$$
 
 
 
